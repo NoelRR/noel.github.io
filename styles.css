@@ -1,0 +1,420 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+     /* border: solid 1px red;  */
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #2e4237 ;
+}
+
+.loginbody{
+    background-image:url("https://www.topgear.com/sites/default/files/images/news-article/carousel/2019/11/b48b7072659c5d97876b13f3a228adc2/2020-daihatsu-rocky-jdm-spec-18.jpeg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+form{
+    display: flex;
+    margin: 150px auto; /*para poner en el centro la vaina ejta*/
+    flex-direction: column;
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.formInicio{
+    margin: auto 150px;
+    width: auto;
+    height: auto;
+    border: none;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.usuario{
+    margin-bottom: 50px;
+}
+
+.contraseña{
+    margin-bottom: 50px;
+}
+
+.loginbody input{
+    color: #fff;
+}
+
+input{
+    font-size: 18px;
+    background-color:transparent ;
+    outline-style: none;
+    border-style: none;
+    border-bottom: 2px solid #fff;
+}
+
+button{
+    color: #fff;
+    outline-style: none;
+    border:2px solid #fff;
+    background-color: transparent;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 8px;
+    margin: auto;    
+    font-family: 'Montserrat',sans-serif;
+}
+
+#loginbutton:hover{
+    cursor: pointer;
+    background-color:#1857ca;
+    border: 2px solid #fff;
+    font-family: 'Montserrat',sans-serif;
+}
+
+#terminosLink{
+    font-weight: bold;
+    color: #1857ca;
+    text-decoration: none;
+}
+
+
+/*Pagina de terminos de usuario*/
+
+.condiciones{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    margin: 20px auto;
+    border: 1px solid #fff;    
+    width: 800px;
+    padding: 30px;
+}
+
+.condiciones h1{
+    text-align: center;
+}
+
+.condiciones h2{
+    font-size: 25px;
+    text-align: left;
+}
+
+.condiciones a{
+    text-align: center;
+    margin-left: 29.7vh;
+    text-decoration: underline;
+    color: #fff;
+}
+
+/*Pagina Index*/
+.principalbody{
+    border: 1px solid #fff;
+    text-align: center;
+    height: 100%;
+    width: 900px;
+    margin: auto;
+}
+
+.contenidoPrincipal{
+    font-size: 17px;
+    padding: 0px 50px;
+}
+
+.principalbody h2{
+    font-size: 22px;
+}
+
+ul{
+    padding: 0px 50px;
+}
+
+.lista{
+    text-align: left;
+}
+
+
+#areatexto{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    resize: none;
+}
+
+/*Catalogo*/
+.autos{
+    width: 400px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.toyota{
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.principalbody .navegador{
+    text-align: right;
+    padding-bottom: 40px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.contenidoPrincipal a{
+    color: #437de7;
+    text-decoration: none;
+}
+
+
+.autoscat{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    justify-items: center;
+    gap: 50px 0px;
+}
+
+.marcoautos{
+    justify-items: center;
+    text-align: center;
+    width: 800px;
+    font-weight: 800;
+    color: #000;
+    border: solid 2px #fff;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.marcoautostoyota{
+    text-align: center;
+    height: 280px;
+    width: 450px;
+    color: #000;
+    font-weight: 800;
+    border: solid 2px #fff;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.marcoautos button{
+    background-color:#1857ca;
+    margin: 6px;
+    font-family: 'Montserrat',sans-serif;
+    transition: 0.3s;
+}
+
+.marcoautostoyota button{
+    border: solid 2px #fff;
+    margin: 6px;
+    background-color:#1857ca;;
+    font-family: 'Montserrat',sans-serif;
+    transition: 0.3s;
+}
+
+
+.marcoautos button:hover{
+    cursor: pointer;
+    color: #000;
+    background-color:#f7ca37;
+}
+
+.marcoautostoyota button:hover{
+    cursor: pointer;
+    color: #000;
+    background-color:#f7ca37;
+}
+
+.navegador{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+.navegador a{
+    background-color: #fff;
+    padding: 3px 6px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navegador a:hover{
+    color: #fff;
+    background-color: #1857ca;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+
+#catalogoTitulo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#carouselExampleControls .nombreAutos{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+#carouselExampleControls2 .nombreAutos{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+#carouselExampleControls3 .nombreAutos{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+#carouselExampleControls4 .nombreAutos{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    font-weight: 700;
+}
+#carouselExampleControls .catBotones{
+    font-size: 20px;
+    border-radius: 16px;
+}
+#carouselExampleControls2 .catBotones{
+font-size: 20px;
+border-radius: 16px;
+}
+#carouselExampleControls3 .catBotones{
+font-size: 20px;
+border-radius: 16px;
+}
+#carouselExampleControls4 .catBotones{
+font-size: 20px;
+border-radius: 16px;
+}
+
+.contenedor{
+    margin-top: 240px;
+    position: fixed;
+    height: 100%;
+}
+
+.contenedor a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 0px;
+}
+
+.contenedor a:hover{
+    color: #1d69f5;
+    
+}
+
+.lateral{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.lateral a:hover{
+    zoom: 140%;
+}
+
+
+/*Empleo*/
+.curriculum{
+    text-align: justify;
+    border-radius: 0px;
+    margin: auto;
+    width: 500px;
+    gap: 0.4em;
+}
+
+.curriculum input{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.curriculum select{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.curriculum #inputedad{
+    width: 40px;
+}
+
+.curriculum .files{
+    border-style: none;
+    cursor: pointer;
+}
+
+.curriculum .radiobtn{
+    cursor: pointer;
+}
+
+#btnEnviarCV{
+    background-color: #fff;
+    color: #000;
+    margin: auto;
+    width: 80px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#btnEnviarCV:hover{
+    color: #fff;
+    background-color: #1857ca;
+    border: 2px solid #1857ca;
+    cursor: pointer;
+    padding: 7px 10px;
+}
+
+/*Tabla de sobre nosotros*/
+.tabla{
+    margin: auto;
+}
+
+.tabla th{
+    border: solid 1px #fff;
+    padding: 5px 10px;
+}
+
+.tabla td{
+    border: solid 1px #fff;
+    padding: 5px 10px;
+}
+
+.cards-wrapper{
+    display: flex;
+}
+
+.autos{
+    width: 800px;
+    height: 500px;
+}
